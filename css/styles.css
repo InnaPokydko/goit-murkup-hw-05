@@ -15,6 +15,7 @@
   --inner-border: #afb1b8;
   --net-color: #afb1b8;
   --background-color-overlay: rgba(33, 150, 243, 0.9);
+  --background-color-works: rgba(47, 48, 58, 0.8);
 }
 
 body {
@@ -312,6 +313,31 @@ ul {
   margin-top: 0;
   margin-bottom: 0;
   margin-right: 30px;
+}
+
+.works-img {
+  position: relative;
+  content: "";
+}
+.work-bg {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  bottom: 0;
+  width: 100%;
+  height: 70px;
+  background-color: var(--background-color-works);
+}
+
+.work-text {
+  color: var(--primary-background-color);
+  text-transform: uppercase;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: calc(16.41 / 14);
+  padding: 27px 0;
+  margin: 0;
 }
 
 /*teame*/
@@ -694,6 +720,7 @@ ul {
 
 .overlay-card {
   position: absolute;
+  display: inline-block;
   top: 0;
   left: 0;
   width: 100%;
@@ -716,7 +743,7 @@ ul {
 .portfolio-overlay:hover .overlay-card:hover {
   transform: translateY(0);
 }
-.portfolio-overlay:focus .overlay-card:focus{
+.portfolio-overlay:focus .overlay-card:focus {
   transform: translateY(0);
 }
 
