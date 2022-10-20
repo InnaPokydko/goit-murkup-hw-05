@@ -687,11 +687,12 @@ ul {
 
 .portfolio-overlay {
   position: relative;
+  width: 370px;
+  height: 294px;
   overflow: hidden;
 }
 
 .text-overlay {
-  
   position: absolute;
   top: 0;
   left: 0;
@@ -710,9 +711,13 @@ ul {
   color: var(--primary-background-color);
   padding: 63px 24px;
   margin: 0;
-  }
+}
 
-.portfolio-list:hover .portfolio-overlay::before {
+.portfolio-list:hover .portfolio-list:focus {
+  transform: translateY(0);
+}
+
+.portfolio-overlay:hover .portfolio-overlay:focus{
   transform: translateY(0);
 }
 
