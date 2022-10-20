@@ -744,10 +744,6 @@ ul {
   transform: translateY(0);
 }
 
-.portfolio-overlay:focus .overlay-card:focus {
-  transform: translateY(0);
-}
-
 .project {
   width: 370px;
   padding: 20px 24px;
