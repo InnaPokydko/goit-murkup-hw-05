@@ -736,8 +736,9 @@ ul {
   font-weight: 400;
   font-size: 18px;
   line-height: calc(28 / 18);
+  letter-spacing: 0.03em;
   color: var(--primary-background-color);
-  padding: 63px 24px 63px 24px;
+  padding: 63px 24px;
   margin: 0;
 }
 
